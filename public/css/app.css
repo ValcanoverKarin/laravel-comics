@@ -17,23 +17,19 @@ img {
 header {
   text-transform: uppercase;
 }
-
 header .header-top {
   background-color: #0082f9;
   font-family: "Montserrat", sans-serif;
 }
-
 header .header-top .nav-header-top {
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
   padding: 4px 0;
 }
-
 header .header-top .nav-header-top li {
   margin-left: 45px;
 }
-
 header .header-top .nav-header-top li a {
   color: #ffffff;
   text-decoration: none;
@@ -41,73 +37,62 @@ header .header-top .nav-header-top li a {
   display: block;
   font-weight: 500;
 }
-
 header .header-bottom {
   font-family: "Barlow Condensed", sans-serif;
 }
-
 header .header-bottom .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 header .header-bottom .logo img {
   display: block;
   width: 50px;
 }
-
 header .header-bottom .menu {
   display: flex;
   list-style-type: none;
 }
-
 header .header-bottom .menu li {
   margin-left: 30px;
   padding-bottom: 25px;
   padding-top: 25px;
 }
-
 header .header-bottom .menu li a {
   color: #1d1d1d;
   font-size: 11px;
   text-decoration: none;
   margin-bottom: 20px;
 }
-
 header .header-bottom .menu li a span {
   font-size: 7px;
   color: #0082f9;
 }
-
 header .header-bottom .menu li a i {
   color: #0082f9;
 }
-
-header .header-bottom .menu li.active,
-header .header-bottom .menu li:hover {
+header .header-bottom .menu li.active, header .header-bottom .menu li:hover {
   border-bottom: 3px solid #0082f9;
 }
-
-header .header-bottom .menu li.active a,
-header .header-bottom .menu li:hover a {
+header .header-bottom .menu li.active a, header .header-bottom .menu li:hover a {
   color: #0082f9;
 }
-
 header .header-bottom .search {
   margin-left: 20px;
   border-bottom: 2px solid #0082f9;
 }
-
 header .header-bottom .search input {
   border: 0;
   text-align: right;
   width: 70px;
   font-size: 11px;
 }
-
 header .header-bottom .search i {
   font-size: 11px;
   color: #1d1d1d;
 }
-
+header .jumbotron {
+  height: 250px;
+  background-image: url("../img/jumbotron.jpg");
+  background-size: cover;
+}
