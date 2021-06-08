@@ -1,0 +1,98 @@
+header {
+    text-transform: uppercase;
+
+    .header-top {
+        background-color: $blue_color;
+        font-family: $font_second;
+
+        .nav-header-top {
+            list-style-type: none;
+            display: flex;
+            justify-content: flex-end;
+            padding: 4px 0;
+
+            li {
+                margin-left: 45px;
+
+                a {
+                    color: $white_color;
+                    text-decoration: none;
+                    font-size: $xs_font_mont;
+                    display: block;
+                    font-weight: 500;                    
+                }
+            }                        
+        }
+    }
+
+    .header-bottom{
+        font-family: $font_first;
+    
+        .container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    
+        .logo img{
+            display: block;
+            width: 50px;
+        }
+    
+        .menu{
+            display: flex;
+            list-style-type: none;
+    
+            li{
+                margin-left: 30px;
+                padding-bottom: 25px;
+                padding-top: 25px;
+    
+                a{
+                    color: $gray_color;
+                    font-size: $s_font_barl;
+                    text-decoration: none;
+                    margin-bottom: 20px;
+
+                    span {
+                        font-size: $xs_font_mont;
+                        color: $blue_color;   
+                    }
+
+                    i{
+                        color: $blue_color;
+                    }
+                }
+    
+                &.active,
+                &:hover {
+                    border-bottom: 3px solid $blue_color;
+    
+                    a{
+                        color: $blue_color;
+                    }
+                }
+            
+            }
+
+        }
+
+        .search{
+            margin-left: 20px;
+            border-bottom: 2px solid $blue_color;
+
+            input{
+                border: 0;
+                text-align: right;
+                width: 70px;
+                font-size: $s_font_barl;
+            }
+
+            i{
+                font-size: $s_font_barl;
+                color: $gray_color;
+            }
+        }
+    }  
+    
+}
