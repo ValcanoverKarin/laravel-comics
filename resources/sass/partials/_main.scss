@@ -1,0 +1,49 @@
+.current-series {
+    background-color: $dkgray_color;
+    padding-bottom: 30px;
+}
+
+h2{
+    background-color: $blue_color;
+    font-size: $m_font_barl;
+    padding: 5px 20px;
+    position: relative;
+    font-family: $font_first;
+    color: $white_color;
+    top: -18px;
+    width: max-content;
+}
+
+.comics-container {
+    padding: 0px 0 30px;
+    position: relative;
+    color: $white_color;
+    display: flex;
+    flex-wrap: wrap;
+    text-align-last: left;
+}
+
+.comic {
+    width: calc( 100% / 6 );
+    padding: 10px;
+
+    .comic-img {
+        height: 115px;
+        overflow: hidden;                
+    }
+
+    .comic-title {
+        margin-top: 7px;
+        margin-bottom: 5px;
+        max-width: fit-content;
+
+        a {
+            color: $white_color;
+            text-decoration: none;
+            font-family: $font_second;
+            font-size: $s_font_mont;
+            text-transform: uppercase;
+            
+        }
+    }
+}
