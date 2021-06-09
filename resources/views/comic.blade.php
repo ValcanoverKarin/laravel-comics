@@ -38,13 +38,13 @@
                     </div>
 
                     <div class="check">
-                        Check Availability &#9660
+                        Check Availability <span>&#9660</span>
                     </div>
                 </div>
                 <!--end info prezzo-->
 
                 <!--descrizione comic-->
-                <p class="description-comic">
+                <p class="description_comic">
                     {{ $comicInfo['description'] }}
                 </p>
                 <!--end descrizione comic-->
@@ -53,8 +53,8 @@
 
             <!--advertisement-->
             <div class="advertisement">
-                <span class="ads-warning">Advertisement</span>
-                <div class="ads-img">
+                <span class="adv_text">Advertisement</span>
+                <div class="adv_img">
                     <img src="{{ asset('img/adv.jpg') }}" alt="adv">
                 </div>
             </div>

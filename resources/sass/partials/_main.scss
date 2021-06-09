@@ -111,6 +111,77 @@ h2{
     }
 
     .info_comic {
-        width: 60%;
+        width: 68%;
+
+        .description_comic {
+            color: $lgray_color;
+            font-size: 12px;
+        }
+       
     }
+
+    .price_info {
+        background-color: $green_color;
+        display: flex;
+        margin-bottom: 20px;
+
+        .price {
+            border-right: 1px solid rgba(32, 32, 32, 0.459);
+            width: 65%;
+            padding: 8px;
+            display: flex;
+            justify-content: space-between;
+            
+
+            span.title {
+                color: $lgreen_color;
+                font-family: $font_second;
+                font-size: $sm_font_mont;
+                font-weight: 500;
+                margin-right: 5px;
+            }
+
+            span.price-number {
+                font-family: $font_second;
+                font-size: $sm_font_mont;
+                font-weight: 500;
+                color: $white_color;
+            }
+        }
+
+        .check {
+            padding: 8px;
+            width: 35%;
+            text-align: center;
+            font-family: $font_second;
+            color: $white_color;
+            font-size: $sm_font_mont;
+            font-weight: 500;
+
+            span {
+                font-size: 5px;
+            }
+        }
+
+    }
+
+    .advertisement {
+        width: 32%;
+        padding-left: 25px;
+        text-align: right;
+
+       .adv_text {
+        color: $lgray_color;
+        font-family: $font_first;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: $s_font_barl;
+       }
+
+       .adv_img {
+        margin-top: 3px;
+       }
+    }
+
 }
+
