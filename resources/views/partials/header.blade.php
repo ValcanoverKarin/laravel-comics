@@ -26,7 +26,9 @@
             <nav>
                 <ul class="menu">
                     <li><a href="#">Characters</a></li>
-                    <li class="active"><a href="#">Comics</a></li>
+                    <li class="{{Request::route()->getName() == 'home' || Request::route()->getName() == 'comic' ? 'active' : ''}}">
+                        <a href="{{ route('home') }}">Comics</a>
+                    </li>
                     <li><a href="#">Movies</a></li>
                     <li><a href="#">Tv</a></li>
                     <li><a href="#">Games</a></li>
