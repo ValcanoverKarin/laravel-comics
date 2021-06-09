@@ -37,48 +37,48 @@
     </section>
     <!--end sezione current series-->
 
-    <!-- Start Section Buy -->
+    <!--sezione buy comics-->
     <section class="buy_comics">
         <div class="container">
 
-            <!-- Start Single card -->
+            <!--card-->
             <div class="card">
                 <img src="{{ asset('img/buy-comics-digital-comics.png') }}" alt="">
-                <div>digital comics</div>
+                <div class="text_card">digital comics</div>
             </div>
-            <!-- End Single card -->
+            <!--end card-->
 
-            <!-- Start Single card -->
+            <!--card-->
             <div class="card">
                 <img src="{{ asset('img/buy-comics-merchandise.png') }}" alt="">
-                <div>dc merchandise</div>
+                <div class="text_card">dc merchandise</div>
             </div>
-            <!-- End Single card -->
+            <!--end card-->
 
-            <!-- Start Single card -->
+            
             <div class="card">
                 <img src="{{ asset('img/buy-comics-subscriptions.png') }}" alt="">
-                <div>supscription</div>
+                <div class="text_card">supscription</div>
             </div>
-            <!-- End Single card -->
+            <!--end card-->
 
-            <!-- Start Single card -->
+            <!--card-->
             <div class="card">
                 <img src="{{ asset('img/buy-comics-shop-locator.png') }}" alt="">
-                <div>comic shop locator</div>
+                <div class="text_card">comic shop locator</div>
             </div>
-            <!-- End Single card -->
+            <!--end card-->
 
-            <!-- Start Single card -->
+            <!--card-->
             <div class="card">
-                <img src="{{ asset('img/buy-comics-shop-locator.png') }}" alt="">
-                <div>dc power visa</div>
+                <img src="{{ asset('img/buy-dc-power-visa.svg') }}" alt="">
+                <div class="text_card">dc power visa</div>
             </div>
-            <!-- End Single card -->
+            <!--end card-->
 
         </div>
     </section>
-    <!-- End Section Info -->
+    <!--end sezione buy comics-->
 
 
 

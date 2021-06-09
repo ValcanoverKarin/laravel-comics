@@ -151,3 +151,63 @@ h2 {
   font-size: 8px;
   text-transform: uppercase;
 }
+
+.buy_comics {
+  background-color: #0082f9;
+}
+.buy_comics .container {
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  width: calc( 100% / 5 );
+  padding: 35px 20px;
+  color: #ffffff;
+}
+.card:last-child img {
+  width: 35px;
+  height: auto;
+}
+.card img {
+  height: 35px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.text_card {
+  text-transform: uppercase;
+  font-size: 8px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.poster_comic {
+  height: 55px;
+  background-color: #0082f9;
+}
+.poster_comic .container {
+  width: 53%;
+  position: relative;
+  height: 100%;
+}
+.poster_comic img {
+  height: 190px;
+  width: auto;
+  position: absolute;
+  bottom: 12px;
+  left: 0;
+  border: 1px solid #ffffff;
+}
+
+.presentation {
+  padding: 50px 0;
+}
+.presentation .container {
+  display: flex;
+  width: 53%;
+}
+.presentation .info_comic {
+  width: 60%;
+}

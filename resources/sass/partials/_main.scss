@@ -48,3 +48,69 @@ h2{
     }
 }
 
+.buy_comics {
+    background-color: $blue_color;
+
+    .container {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.card {
+    display: flex;
+            align-items: center;         
+            width: calc( 100% / 5 );   
+            padding: 35px 20px;         
+            color: $white_color;
+
+            &:last-child img {
+                width: 35px;
+                height: auto;
+            }
+
+            img {
+                height: 35px;
+                width: auto;
+                margin-right: 10px;
+            }
+}
+
+.text_card {
+    text-transform: uppercase;
+    font-size: $s_font_mont;
+    font-family: $font_second;
+}
+
+.poster_comic {
+    height: 55px;
+    background-color: $blue_color;
+
+    .container {
+        width: 53%;
+        position: relative;
+        height: 100%;
+    }
+
+    img {
+        height: 190px;
+        width: auto;
+        position: absolute;
+        bottom: 12px;
+        left: 0;
+        border: 1px solid $white_color;
+    }
+}
+
+.presentation {
+    padding: 50px 0;
+
+    .container {
+        display: flex;
+        width: 53%;
+    }
+
+    .info_comic {
+        width: 60%;
+    }
+}
